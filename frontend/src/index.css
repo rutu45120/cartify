@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+
+@font-face {
+    font-family: 'sifonn';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Sifonn Pro'), url('./Assets/Font/SIFONN_PRO.woff') format('woff');
+}
+
+@theme{
+--font-main : "sifonn";
+--text-text:#040806;
+--bg-main:#fafdfb;
+--color-primary:#64b38d;
+--color-secondary:#9cb5ce;
+--color-accent:#8291c2;
+
+}
+
+
+/* 
+
+   
+backgroundImage: {
+    'linear-primary-accent': 'linear-gradient(#64b38d, #8291c2)',
+    'linear-secondary-accent': 'linear-gradient(#9cb5ce, #8291c2)',
+    'radial-primary-secondary': 'radial-gradient(#64b38d, #9cb5ce)',
+    'radial-primary-accent': 'radial-gradient(#64b38d, #8291c2)',
+    'radial-secondary-accent': 'radial-gradient(#9cb5ce, #8291c2)',
+  }
+    */
